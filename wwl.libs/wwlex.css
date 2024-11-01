@@ -1,0 +1,97 @@
+.wwl-hide {
+	display: none;
+}
+.wwl-show {
+	display: inline;
+}
+.wwl-translated-fragment {
+	position: relative;
+}
+.wwl-editing {
+	background: #FFFF9E;
+	cursor: pointer;
+	padding-right: 0.3em;
+	padding-left: 0.3em;
+	border-right: 0.3em solid green;
+	border-left: 0.3em solid red;
+}
+.wwl-highlight {
+	background: #AEFFAE;
+}
+.wwl-highlight-2 {
+	background: #FFFFAE;
+}
+.wwl-rating {
+	position: absolute;
+	width: 512px;
+	z-index: 100;
+	left: 0;
+	border: 1px gray solid;
+	background: white;
+	padding: 4px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	margin: 0;
+	text-indent: 0;
+}
+.wwl-notice {
+	font-size: 14px;
+	font-weight: normal;
+	color: black;
+	margin: 0;
+	padding: 4px;
+}
+.wwl-stars {
+	height: 16px;
+	width: 90px;
+	background: url(stars.png) -90px center no-repeat;
+	cursor: pointer;
+}
+a.wwl-flag {
+	font-size: 14px;
+	text-decoration: underline;
+	padding-left: 22px !important;
+	background: url(stars.png) -180px center no-repeat;
+	position: absolute;
+	bottom: 4px;
+	right: 4px;
+}
+.wwl-original-fragment {
+	padding: 4px !important;
+	background: #eee;
+	margin-bottom: 8px;
+}
+#wwl-inline-editor {
+	right: 0;
+	bottom: 0;
+	position:fixed;;
+	z-index: 10001;
+	width: 60%;
+	margin: 0 auto;
+	border: 3px gray solid;
+	padding: 5px;
+	background: white;
+	text-align: left;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+#wwl-inline-editor textarea {
+	display: block;
+	width: 99%;
+	font-size: 12px;
+	margin: 15px 0;
+	border: 1px black solid;
+}
+#wwl-inline-editor div {
+	padding: 5px;
+	font-size: 12px;
+	text-align: left;
+}
+#wwl-inline-editor-mt {
+	background: #c0c0FF;
+}
+#wwl-inline-editor-title {
+	font-size: 14px !important;
+	font-weight: bold;
+	background: none !important;
+}
